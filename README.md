@@ -1,4 +1,4 @@
-This repository contains the original Pixel Dungeon code, adapted to work with modern Android build tools. The original codebase for the game uses the outdated ANT build system, this codebase uses Gradle but is otherwise functionally identical.
+This repository contains the original Pixel Dungeon code, adapted to work with modern Android build tools. The original codebase for the game uses the outdated ADT build system, this codebase uses Gradle but is otherwise functionally identical.
 
 Look below for compilation instructions
 
