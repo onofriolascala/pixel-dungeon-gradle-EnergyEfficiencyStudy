@@ -4,7 +4,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.0'
+        classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
 
@@ -17,9 +17,9 @@ allprojects {
         appVersionCode = 74
         appVersionName = '1.9.1'
 
-        appAndroidCompileSDK = 29
+        appAndroidCompileSDK = 30
         appAndroidMinSDK = 8
-        appAndroidTargetSDK = 29
+        appAndroidTargetSDK = 30
     }
     version = appVersionName
 
