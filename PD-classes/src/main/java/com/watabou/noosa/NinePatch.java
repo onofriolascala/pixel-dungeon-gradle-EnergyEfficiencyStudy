@@ -21,6 +21,7 @@
 
 package com.watabou.noosa;
 
+import java.nio.Buffer;
 import java.nio.FloatBuffer;
 
 import com.watabou.gltextures.SmartTexture;
@@ -88,7 +89,7 @@ public class NinePatch extends Visual {
 	
 	protected void updateVertices() {
 
-		verticesBuffer.position( 0 );
+		((Buffer)verticesBuffer).position( 0 );
 		
 		float right = width - marginRight;
 		float bottom = height - marginBottom;

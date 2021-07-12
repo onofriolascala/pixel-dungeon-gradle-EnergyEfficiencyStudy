@@ -17,6 +17,7 @@
  */
 package com.watabou.pixeldungeon.effects;
 
+import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
@@ -101,7 +102,7 @@ public class Flare extends Visual {
 			indices.put( (short)(2 + i * 2) );
 		}
 		
-		indices.position( 0 );
+		((Buffer)indices).position( 0 );
 	}
 	
 	public Flare color( int color, boolean lightMode ) {
