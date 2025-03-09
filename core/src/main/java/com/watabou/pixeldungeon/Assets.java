@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 package com.watabou.pixeldungeon;
-//aa
+//aaa
 public class Assets {
 
 	public static final String ARCS_BG		= "arcs1.png";
